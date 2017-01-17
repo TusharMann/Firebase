@@ -105,4 +105,14 @@
         android:layout_below="@+id/button_link_account"
         android:enabled="true"
         android:text="Login" />
+
+    <Spinner
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_below="@+id/field_password"
+        android:layout_alignEnd="@+id/icon"
+        android:layout_marginTop="11dp">
+
+    </Spinner>
 </RelativeLayout>
